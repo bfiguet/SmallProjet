@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Calculatrice/style.css">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <h1>Calculatrice</h1>
+    <div id="ecran">
+        Que voulez-vous calculer?
+    </div>
+    <div id="container">
+        <div id="touch">
+            <div>
+                <input type="button" value="AC" onclick="resetAll(this)">
+            </div>
+            <div>
+                <input type="button" value="CE" onclick="reset1(this)">
+            </div>
+            <div>
+                <input type="button" value="%" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="/" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="7" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="8" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="9" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="*" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="5" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="6" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="-" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="2" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="3" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="+" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="00" onclick="showValue(this)" >
+            </div>
+            <div>
+                <input type="button" value="0" onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="." onclick="showValue(this)">
+            </div>
+            <div>
+                <input type="button" value="=" onclick="total(this)">
+            </div>
+        </div>
+    </div>
+    <script src="/Calculatrice/app.js"></script>
+</body>
+</html>
